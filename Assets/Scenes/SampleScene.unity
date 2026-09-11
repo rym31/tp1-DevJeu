@@ -127,6 +127,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1127294371227345377, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4470112289508433532, guid: d8e0102c4165ce148a3727a31c9b5997, type: 3}
+    - target: {fileID: 1127294371227345377, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127294371227345377, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127294371227345377, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2406998078900916351, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
       propertyPath: m_Name
       value: Batterie
@@ -136,12 +152,20 @@ PrefabInstance:
       value: Batterie
       objectReference: {fileID: 0}
     - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4972761
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.8667402
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.26
+      value: 8.79
       objectReference: {fileID: 0}
     - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.36
+      value: -0.72
       objectReference: {fileID: 0}
     - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -243,7 +267,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: cd2fd38c6f1e1414ab79a69c0e4c6137, type: 3}
   m_Color: {r: 0.6901961, g: 0.8784314, b: 0.9019608, a: 1}
   m_FlipX: 0
@@ -278,6 +302,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1127294371227345377, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4470112289508433532, guid: d8e0102c4165ce148a3727a31c9b5997, type: 3}
+    - target: {fileID: 1127294371227345377, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127294371227345377, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127294371227345377, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2406998078900916351, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
       propertyPath: m_Icon
       value: 
@@ -291,12 +331,20 @@ PrefabInstance:
       value: Batterie
       objectReference: {fileID: 0}
     - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.65528
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.044072
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.18
+      value: 8.26
       objectReference: {fileID: 0}
     - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.48
+      value: 2.34
       objectReference: {fileID: 0}
     - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -625,7 +673,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0233333, y: 1.0633334}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -680,8 +728,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0, b: 1, a: 1}
+  m_Sprite: {fileID: -6084946423619365934, guid: d8e0102c4165ce148a3727a31c9b5997, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -700,8 +748,8 @@ Transform:
   m_GameObject: {fileID: 776152504}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.36, y: -3.18, z: 0}
-  m_LocalScale: {x: 1, y: 1.5757, z: 1}
+  m_LocalPosition: {x: 8.797, y: -3.35, z: 0}
+  m_LocalScale: {x: 2.3463516, y: 1.9913697, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -769,7 +817,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: cd2fd38c6f1e1414ab79a69c0e4c6137, type: 3}
   m_Color: {r: 0.6901961, g: 0.8784314, b: 0.9019608, a: 1}
   m_FlipX: 0
@@ -1002,8 +1050,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0.21133333}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.28866667}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.0233333, y: 1.0633334}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1178,6 +1226,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1127294371227345377, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5631552136633378639, guid: d8e0102c4165ce148a3727a31c9b5997, type: 3}
+    - target: {fileID: 1127294371227345377, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127294371227345377, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127294371227345377, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2406998078900916351, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
       propertyPath: m_Name
       value: Batterie
@@ -1187,12 +1251,20 @@ PrefabInstance:
       value: Batterie
       objectReference: {fileID: 0}
     - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.628984
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7147031
+      objectReference: {fileID: 0}
+    - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.48
+      value: 3.19
       objectReference: {fileID: 0}
     - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.78
+      value: 2.34
       objectReference: {fileID: 0}
     - target: {fileID: 2519906367870327198, guid: 6e528124db84d934c90e07414821dcbf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1296,17 +1368,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 789731688071990307, guid: 7057682271299284b93d0a082fd362bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6289728374019620151, guid: d8e0102c4165ce148a3727a31c9b5997, type: 3}
+    - target: {fileID: 789731688071990307, guid: 7057682271299284b93d0a082fd362bc, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 789731688071990307, guid: 7057682271299284b93d0a082fd362bc, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 789731688071990307, guid: 7057682271299284b93d0a082fd362bc, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4380321311713129407, guid: 7057682271299284b93d0a082fd362bc, type: 3}
       propertyPath: m_Name
       value: Robot
       objectReference: {fileID: 0}
     - target: {fileID: 5766990617429899557, guid: 7057682271299284b93d0a082fd362bc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4401
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766990617429899557, guid: 7057682271299284b93d0a082fd362bc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2483
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766990617429899557, guid: 7057682271299284b93d0a082fd362bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.63
+      value: -6.3348
       objectReference: {fileID: 0}
     - target: {fileID: 5766990617429899557, guid: 7057682271299284b93d0a082fd362bc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.25
+      value: 1.462
       objectReference: {fileID: 0}
     - target: {fileID: 5766990617429899557, guid: 7057682271299284b93d0a082fd362bc, type: 3}
       propertyPath: m_LocalPosition.z
